@@ -1,0 +1,23 @@
+#why_choose_us {
+  h3 {
+    padding: 0 40px;
+    @media screen and (max-width: 767px) {
+      padding: 0 50px;
+      margin-bottom: 10px;
+    }
+  }
+  .elementor-image-box-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .elementor-image-box-description {
+      padding: 0 25px;
+    }
+  }
+}
